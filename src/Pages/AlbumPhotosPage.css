@@ -1,0 +1,160 @@
+.background-imga{
+    background-image: url(./thomasbg.jpg);
+    background-size: 300% 300%;
+
+    .header{
+        padding-top: 30px;
+    margin-left: 510px;
+    font-size: 34px;
+    font-weight: 800;
+    color: rgb(234, 236, 241);
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    margin-bottom: 40px;
+    text-decoration: underline 2px;
+    }
+}
+
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  .photo-item {
+    background: linear-gradient(235deg,#dce0d0,#12131a,#640855);
+    border-style: solid;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    border-style: solid;
+    border-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .photo-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f8f4f4;
+  }
+  
+
+  @media screen and (max-width: 768px){
+    .background-imga{
+        background-image: url(./thomasbg.jpg);
+        background-size: 300% 300%;
+    
+        .header{
+            padding-top: 30px;
+        margin-left: 155px;
+        font-size: 24px;
+        font-weight: 800;
+        color: rgb(234, 236, 241);
+        text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        margin-bottom: 40px;
+        text-decoration: underline 2px;
+        }
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+    .background-imga{
+        background-image: url(./thomasbg.jpg);
+        background-size: 300% 300%;
+    
+        .header{
+            padding-top: 30px;
+        margin-left: 270px;
+        font-size: 24px;
+        font-weight: 800;
+        color: rgb(234, 236, 241);
+        text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        margin-bottom: 40px;
+        text-decoration: underline 2px;
+        }
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    .background-imga{
+        background-image: url(./thomasbg.jpg);
+        background-size: 300% 300%;
+    
+        .header{
+            padding-top: 30px;
+        margin-left: 490px;
+        font-size: 24px;
+        font-weight: 800;
+        color: rgb(234, 236, 241);
+        text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        margin-bottom: 40px;
+        text-decoration: underline 2px;
+        }
+    }
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 667px){
+    .background-imga{
+        background-image: url(./thomasbg.jpg);
+        background-size: 300% 300%;
+    
+        .header{
+            padding-top: 30px;
+        margin-left: 125px;
+        font-size: 14px;
+        font-weight: 800;
+        color: rgb(234, 236, 241);
+        text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        margin-bottom: 40px;
+        text-decoration: underline 2px;
+        }
+    }
+  }
+  
+  @media screen and (min-width: 994px) and (max-width: 1057px){
+    .background-imga{
+      background-image: url(./thomasbg.jpg);
+      background-size: 300% 300%;
+  
+      .header{
+          padding-top: 30px;
+      margin-left: 449px;
+      font-size: 14px;
+      font-weight: 800;
+      color: rgb(234, 236, 241);
+      text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+      margin-bottom: 40px;
+      text-decoration: underline 2px;
+      }
+  }
+  }

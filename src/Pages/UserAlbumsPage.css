@@ -1,0 +1,79 @@
+.container-album-listpage{
+    background-image: url(./diana-bg.jpg);
+    background-size: 100% 100%;
+}
+
+.user-albums-container {
+    max-width: 800px;
+    height: 150vh;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-albums-title {
+    margin-top: 30px;
+    margin-left: 205px;
+    font-size: 34px;
+    font-weight: 800;
+    color: rgb(234, 236, 241);
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    margin-bottom: 40px;
+    text-decoration: underline 2px;
+  }
+  
+
+  .user-albums-list {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-albums-list li {
+    
+    margin-bottom: 10px;
+  }
+  
+  .user-albums-list li a {
+    background: linear-gradient(235deg,#b2d154,#0a0c13,#a85f9c);
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    text-decoration: none;
+    color: #2a96fc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-albums-list li a:hover {
+    background-color: #cc0d0d;
+  }
+
+  @media screen and (max-width: 768px){
+
+    
+
+    .user-albums-title {
+      margin-top: 30px;
+      margin-left: 125px;
+      font-size: 24px;
+      font-weight: 800;
+      color: rgb(234, 236, 241);
+      text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+      margin-bottom: 40px;
+      text-decoration: underline 2px;
+    }
+  }
+  
